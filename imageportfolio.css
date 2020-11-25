@@ -1,0 +1,100 @@
+body{
+    background-image: url('https://images.hdqwalls.com/download/abstract-dark-red-4k-37-1366x768.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family:'Montserrat', sans-serif;
+    
+    
+}
+
+
+.head{
+    border-bottom:3px solid rgba(255, 192, 203,0.7);
+    color:white;
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:30px;
+}
+
+.nav li{
+     display:inline;
+    }
+
+.nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1.5rem;
+    margin-right:20px; 
+    transition: all 1s; 
+    cursor: pointer;  
+}
+
+.nav a:hover{
+    color:rgba(255, 192, 203,0.7);
+    font-size:1.7rem;
+}
+
+
+.nav ul{
+    
+    list-style:none;
+}
+
+    .container{
+    margin-top:40px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+
+}
+
+.nav{
+    margin-bottom:50px;
+}
+
+img{
+    height:400px;
+    width:450px;
+    border:3px solid rgba(255, 192, 203,0.7);
+    margin-bottom:25px;
+    transition: all 1s;
+    
+}
+
+img:hover{
+    transform:scale(1.1);
+    box-shadow: 7px 7px 40px 2px whitesmoke;
+    cursor: pointer; 
+}
+
+.fixed-button{
+    position:fixed;
+    top:50%;
+    left:0px;
+    border:1.5px black solid;
+    background-color:rgb(255, 192, 203);
+    color:black;
+    height:20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius: 0.7rem;
+}
+
+
+.fixed-button:hover{
+    background-color:black;
+    color:white;
+    box-shadow: 2px 2px 40px 1px whitesmoke;
+    cursor: pointer; 
+}
+
+.foot{
+    color:white;
+    background-color:rgba(204, 204, 204,0.7) ;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.2rem;
+}
+
+
